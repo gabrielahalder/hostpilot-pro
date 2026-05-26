@@ -71,7 +71,7 @@ function TeamTab(){
     <div>
       <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:14}}>
         <span style={{fontSize:13,color:QL.txmt}}>{team.length} members · {"$"+owed} owed</span>
-        <a href="https://react-s8a85b1o.stackblitz.io" target="_blank" rel="noreferrer" style={{fontSize:12,fontWeight:700,color:QL.ac,textDecoration:"none"}}>Teammate Portal →</a>
+        <a href="https://team.secondhomecollection.com" target="_blank" rel="noreferrer" style={{fontSize:12,fontWeight:700,color:QL.ac,textDecoration:"none"}}>Teammate Portal →</a>
       </div>
       {team.filter(t=>t.owed>0).length>0&&<div style={{background:"#FBF3E2",border:"1px solid "+QL.cm+"44",borderRadius:10,padding:"12px 16px",marginBottom:14}}>
         <div style={{fontWeight:700,color:QL.cm,marginBottom:8}}>💳 Payments Due</div>
