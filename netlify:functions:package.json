@@ -1,9 +1,0 @@
-{
-  "name": "hostpilot-functions",
-  "version": "1.0.0",
-  "description": "HostPilot Netlify scheduled functions",
-  "type": "module",
-  "dependencies": {
-    "nodemailer": "^6.9.9"
-  }
-}
