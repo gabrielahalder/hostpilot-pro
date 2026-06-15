@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+# Runs every hour at :00
+[[scheduled_functions]]
+  name = "automation-scheduler"
+  cron = "0 * * * *"
